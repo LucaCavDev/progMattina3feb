@@ -17,12 +17,12 @@
         <br>
 
         <label for="alchool_perc">Alchool: </label>
-        <input name="alchool_perc" type="number" value="{{ $drink -> alchool_perc / 10 }}">
+        <input name="alchool_perc" type="number" value="{{ $drink -> alchool_perc / 10 }}" step="any">
 
         <br>
 
         <label for="price">Price: </label>
-        <input name="price" type="number" value="{{ $drink -> price / 100 }}">
+        <input name="price" type="number" value="{{ $drink -> price / 100 }}" step="any">
 
         <br>
 

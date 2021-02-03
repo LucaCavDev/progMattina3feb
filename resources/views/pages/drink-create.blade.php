@@ -14,12 +14,12 @@
         <br>
 
         <label for="alchool_perc">Alchool: </label>
-        <input name="alchool_perc" type="number">
+        <input name="alchool_perc" type="number" step="any">
 
         <br>
 
         <label for="price">Price: </label>
-        <input name="price" type="number">
+        <input name="price" type="number" step="any">
 
         <br>
 
