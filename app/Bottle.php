@@ -4,18 +4,17 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Drink extends Model
+class Bottle extends Model
 {
     protected $fillable = [
 
         'name',
-        'alchool_perc',
         'price',
     ];
 
-    public function bottle() {
+    public function drinks() {
 
-        return $this -> belongsTo(Bottle::class);
+        return $this -> hasMany(Drink::class);
     }
 
 }
